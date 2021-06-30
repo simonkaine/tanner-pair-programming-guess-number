@@ -12,7 +12,7 @@ const reset = document.getElementById('reset');
   // update DOM to reflect the new state
 let number = Math.floor(Math.random(1) * 20);
 let attempts = 4;
-let lose = `You Lost`;
+
 
 numberButton.addEventListener('click', () => {
     console.log(number);
@@ -27,4 +27,8 @@ numberButton.addEventListener('click', () => {
         const check = checkNumber(numberInput.value, number);
         hints.textContent = check;
     }
+});
+reset.addEventListener('click', () => {
+    attempts = 4;
+    console.log(attempts);
 });
