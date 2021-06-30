@@ -3,8 +3,16 @@ h1 {
     font-size: 2rem;
 }
 h3 {
-    font-weight: bold;
+    font-weight: bolder;
 }
-#reset {
-    visibility: hidden;
+/*#reset {
+    display: none;
+}*/
+button {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+span {
+    margin: 5px;
 }
