@@ -5,9 +5,11 @@ h1 {
 h3 {
     font-weight: bolder;
 }
-/*#reset {
-    display: none;
-}*/
+#reset {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
 button {
     padding: 5px;
     border-radius: 5px;

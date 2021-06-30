@@ -28,7 +28,3 @@ numberButton.addEventListener('click', () => {
         hints.textContent = check;
     }
 });
-reset.addEventListener('click', () => {
-    attempts = 4;
-    console.log(attempts);
-});
