@@ -10,7 +10,7 @@ const reset = document.getElementById('reset');
   // get user input
   // use user input to update state 
   // update DOM to reflect the new state
-let number = Math.floor(Math.random() * 20);
+let number = Math.ceil(Math.random() * 20);
 let attempts = 4;
 
 
