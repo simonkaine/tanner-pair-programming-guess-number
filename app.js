@@ -19,12 +19,18 @@ numberButton.addEventListener('click', () => {
     attempts--;
     triesRemaining.textContent = `${attempts} tries reamining`;
     reset.hidden = true;
-    if (attempts === 0){
+    const check = checkNumber(numberInput.value, number);
+    if (Number(numberInput.value) === number){
         numberButton.disabled = true;
+        reset.hidden = false;
+        hints.textContent = check;
+    }
+    else if (attempts === 0){
         hints.textContent = 'You Lost';
+        numberButton.disabled = true;
         reset.hidden = false;
     } else {
-        const check = checkNumber(numberInput.value, number);
         hints.textContent = check;
+      
     }
 });
