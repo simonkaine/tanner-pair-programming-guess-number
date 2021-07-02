@@ -9,17 +9,14 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+    <title>Tanner Pair Programming</title>
 </head>
 
 <body>
     <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png" />
-        </div>
     </header>
     <main>
-        <section>
+        <section class="header">
             <h1>Guess the Number Game:</h1>
             <h3>Rules:</h3>
             <ul>
@@ -30,7 +27,7 @@
                 <li>Guess wrong 4 times, You Lose!</li>
             </ul>
         </section>
-        <section>
+        <section class="game-section">
             <input id="number-input" type="number">
             <button id="number-button">Click Me!</button>
             <input id="reset" type="reset" value="Reset" onClick="window.location.reload()">
