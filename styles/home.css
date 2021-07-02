@@ -39,11 +39,19 @@ div {
     box-shadow: 20px 0px 200px 5px;
     border-radius: 80%;
     padding: 120px;
+    width:fit-content;
 }
 
 .game-section {
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
+    color: white;
+    border: 1px solid white;
+    padding: 30px;
+    box-shadow: 20px 0px 200px 5px;
+    border-radius: 60%;
+    padding: 120px;
+    width:fit-content;
 }
 
 section {
@@ -55,10 +63,6 @@ main {
     background-repeat: no-repeat;
     background-size: cover;;
     height: 1000px;
-}
-
-.game-section {
-    color: white;
 }
 
 footer {
