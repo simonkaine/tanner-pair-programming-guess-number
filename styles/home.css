@@ -24,6 +24,16 @@ span {
     margin: 5px;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+}
+
 .header {
     margin: 0px;
     height: 500px;
@@ -47,11 +57,16 @@ div {
     padding: 0px;
     color: white;
     border: 1px solid white;
-    padding: 30px;
+    padding: 70px;
     box-shadow: 20px 0px 200px 5px;
     border-radius: 60%;
-    padding: 120px;
+    
     width:fit-content;
+}
+
+.input-message {
+    padding-bottom: 10px;
+    font-size: 1.3em;
 }
 
 section {

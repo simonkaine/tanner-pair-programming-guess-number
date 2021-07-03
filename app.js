@@ -10,10 +10,12 @@ let number = Math.ceil(Math.random() * 20);
 let attempts = 4;
 
 numberButton.addEventListener('click', () => {
+    
     attempts--;
     triesRemaining.textContent = `${attempts} tries reamining`;
     reset.hidden = true;
     const check = checkNumber(numberInput.value, number);
+
     if (Number(numberInput.value) === number){
         numberButton.disabled = true;
         reset.hidden = false;
